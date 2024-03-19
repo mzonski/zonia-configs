@@ -1,0 +1,5 @@
+{
+  "references": [{ "path": "../../packages/zonia-core/tsconfig.base.json"}],
+  "include": [
+    "default.cjs", "scss.cjs", "shared.cjs"]
+}

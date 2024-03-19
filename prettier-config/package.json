@@ -1,0 +1,32 @@
+{
+  "name": "zonia-config-prettier",
+  "version": "1.0.2",
+  "description": "ZONIA Prettier config",
+  "main": "index.cjs",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "code-style",
+    "formatting",
+    "zonia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzonski/zonia-configs.git"
+  },
+  "files": [
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=10"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
