@@ -1,13 +1,17 @@
 /** @type import("prettier").Options */
 const prettierOptions = {
-  printWidth: 120,
-  tabWidth: 2,
-  useTabs: false,
-  semi: true,
-  singleQuote: true,
-  trailingComma: 'all',
-  arrowParens: 'always',
-  endOfLine: 'auto',
-}
+	arrowParens: 'always',
+	endOfLine: 'auto',
+	experimentalTernaries: true,
+	htmlWhitespaceSensitivity: 'strict',
+	printWidth: 120,
+	proseWrap: 'always',
+	quoteProps: 'consistent',
+	semi: true,
+	singleQuote: true,
+	tabWidth: 2,
+	trailingComma: 'all',
+	useTabs: true,
+};
 
 module.exports = prettierOptions;

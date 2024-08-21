@@ -1,0 +1,18 @@
+{
+	"name": "@zonia/configs-root",
+	"private": true,
+	"license": "MIT",
+	"workspaces": [
+		"eslint-config",
+		"prettier-config",
+		"stylelint-config"
+	],
+	"prettier": "./prettier-config/index.cjs",
+	"scripts": {
+		"format:write": "prettier **/*.{cjs,json,md} --write"
+	},
+	"devDependencies": {
+		"prettier": "^3",
+		"typescript": "~5.2"
+	}
+}

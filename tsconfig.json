@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ES6",
+		"allowJs": true,
+		"checkJs": true,
+		"noEmit": true,
+		"pretty": true,
+		"strict": true,
+		"esModuleInterop": true
+	},
+	"exclude": ["node_modules", "**/node_modules"],
+	"include": ["**/*.cjs", "**/*.ts"]
+}
